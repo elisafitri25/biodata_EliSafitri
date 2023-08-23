@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Gaya untuk layar kecil (ponsel) */
+@media (max-width: 400px) {
+  @viewport {
+    width: device-width;
+    minimum-scale: 1;
+    maximum-scale: 1;
+    user-scalable: no;
+  }
+  body {
+    background: #8d919f;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  img {
+    max-width: 80%; /* Gambar tidak akan melebihi lebar kontainer */
+    height: auto; /* Gambar akan tetap proporsional */
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    color: rgb(14, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid azure;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  p::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: #ffffff;
+    z-index: -1;
+    border-radius: 8px;
+  }
+  a {
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3a1254;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+}
+
+@media (min-width: 401px) {
+  @viewport {
+    width: device-width;
+    minimum-scale: 1;
+    maximum-scale: 1;
+    user-scalable: no;
+  }
+  body {
+    background: #8d919f;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  img {
+    max-width: 60%; /* Gambar tidak akan melebihi lebar kontainer */
+    height: auto; /* Gambar akan tetap proporsional */
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    color: rgb(14, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid azure;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  p::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: #ffffff;
+    z-index: -1;
+    border-radius: 8px;
+  }
+  a {
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3a1254;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+}
